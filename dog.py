@@ -50,7 +50,7 @@ unique_breeds = np.array([
 # Load the model with CustomObjectScope
 URL = "https://www.kaggle.com/models/google/mobilenet-v2/TensorFlow2/035-224-classification/2"
 with CustomObjectScope({'KerasLayer': hub.KerasLayer}):
-    model = load_model('./dog_vision_model.h5', custom_objects={'KerasLayer': hub.KerasLayer})
+    model = load_model('./20240518-14501716043847-images-mobilenetv2-Adam.h5', custom_objects={'KerasLayer': hub.KerasLayer})
 
 ## Define image size
 IMG_SIZE = 224
