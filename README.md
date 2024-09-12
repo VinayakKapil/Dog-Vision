@@ -26,7 +26,7 @@ The goal of this project is to classify the breed of a dog given an input image.
 - Images are resized and normalized before being fed into the model for inference.
   
 ### Training
-- The model was trained using [optimizer, loss function] for [number of epochs] on a dataset with [number of dog breeds].
+- The model was trained using [optimizer, loss function] for 100 number of epochs on a dataset with 120 number of dog breeds.
 
 ## Flask Web Application
 
