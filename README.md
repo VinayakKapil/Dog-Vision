@@ -12,8 +12,7 @@ This repository contains a machine learning model for recognizing dog breeds fro
 7. [Evaluation Metrics](#evaluation-metrics)
 8. [Results](#results)
 9. [Contributing](#contributing)
-10. [License](#license)
-11. [Contact](#contact)
+10. [Contact](#contact)
 
 ## Project Overview
 
@@ -120,9 +119,7 @@ The model achieves the following results on the test set:
 
 Contributions are welcome! Please feel free to submit pull requests or create issues.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
