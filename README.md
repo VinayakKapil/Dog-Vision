@@ -69,10 +69,9 @@ pip install -r requirements.txt
 ```
 
 ### Requirements:
-- Python 3.x
+- Python 3.9
 - TensorFlow or PyTorch
 - Flask
-- OpenCV
 - NumPy
 
 ## Usage
@@ -97,11 +96,10 @@ python scripts/infer.py --image_path ./dog_images/labrador.jpg
 
 ## Dataset
 
-Here's the dataset section with the Kaggle source mentioned:
+
 
 ---
 
-## Dataset
 
 The Dog Breed Recognition model was trained on the **[Dog Breed Identification Dataset](https://www.kaggle.com/c/dog-breed-identification)** from Kaggle. The dataset contains images of 120 distinct dog breeds and is widely used for image classification tasks in the domain of dog breed recognition.
 
