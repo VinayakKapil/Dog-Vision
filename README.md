@@ -59,8 +59,8 @@ To run this project locally, clone the repository and install the required depen
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/dog-breed-recognition-flask.git
-cd dog-breed-recognition-flask
+git clone https://github.com/VinayakKapil/Dog-Vision
+cd Dog-Vision
 ```
 
 ### Install dependencies:
