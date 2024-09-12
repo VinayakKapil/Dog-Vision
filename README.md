@@ -155,7 +155,7 @@ Contributions are welcome! Please feel free to submit pull requests or create is
 ## Contact
 
 - Name: Vinayak
-- Email: your-email@example.com
+- Email: vinayakkapil13@gmail.com
 
 ---
 
