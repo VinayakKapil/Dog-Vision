@@ -97,7 +97,38 @@ python scripts/infer.py --image_path ./dog_images/labrador.jpg
 
 ## Dataset
 
-The model was trained on the [Dataset Name] containing images of different dog breeds. You can find the dataset at [link to dataset].
+Here's the dataset section with the Kaggle source mentioned:
+
+---
+
+## Dataset
+
+The Dog Breed Recognition model was trained on the **[Dog Breed Identification Dataset](https://www.kaggle.com/c/dog-breed-identification)** from Kaggle. The dataset contains images of 120 distinct dog breeds and is widely used for image classification tasks in the domain of dog breed recognition.
+
+### Dataset Structure:
+The dataset is organized into the following format:
+
+```
+dataset/
+    ├── train/
+    │   ├── breed1/
+    │   ├── breed2/
+    │   └── ...
+    └── test/
+        ├── breed1/
+        ├── breed2/
+        └── ...
+```
+
+Each folder in the `train/` directory contains images belonging to a specific breed. The `test/` directory contains images that need to be classified.
+
+### Download the Dataset:
+You can download the dataset from Kaggle by following these steps:
+1. Visit the [Dog Breed Identification Dataset](https://www.kaggle.com/c/dog-breed-identification) page.
+2. Sign in with your Kaggle account.
+3. Click on the "Download All" button to get the dataset.
+
+
 
 ## Evaluation Metrics
 
