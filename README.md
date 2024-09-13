@@ -26,7 +26,7 @@ The goal of this project is to classify the breed of a dog given an input image.
 - Images are resized and normalized before being fed into the model for inference.
   
 ### Training
-- The model was trained using [optimizer, loss function] for 100 number of epochs on a dataset with 120 number of dog breeds.
+- The model was trained using Adam optimizer, CategoricalCrossentropy loss function for 100 number of epochs on a dataset with 120 number of dog breeds.
 
 ## Flask Web Application
 
@@ -132,17 +132,11 @@ You can download the dataset from Kaggle by following these steps:
 
 The model is evaluated using the following metrics:
 - **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-Score**
 
 ## Results
 
 The model achieves the following results on the test set:
-- **Accuracy**: X%
-- **Precision**: X%
-- **Recall**: X%
-- **F1-Score**: X%
+- **Accuracy**: 60%
 
 ## Contributing
 
