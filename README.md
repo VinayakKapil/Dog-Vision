@@ -37,7 +37,7 @@ A simple Flask-based web application is provided to allow users to interact with
 To start the web application, navigate to the project directory and run:
 
 ```bash
-python app.py
+python dog.py
 ```
 
 The app will be accessible at `http://127.0.0.1:5000/`. Users can upload images through the web interface, and the predicted breed will be displayed on the page.
@@ -79,20 +79,10 @@ pip install -r requirements.txt
 ### Running the Flask App:
 To start the Flask app, simply run:
 ```bash
-python app.py
+python dog.py
 ```
 Visit `http://127.0.0.1:5000/` in your web browser, where you can upload an image of a dog and receive the breed prediction.
 
-### Running Inference via Command Line:
-If you'd like to run inference directly from the command line:
-```bash
-python scripts/infer.py --image_path path_to_image.jpg
-```
-
-### Example:
-```bash
-python scripts/infer.py --image_path ./dog_images/labrador.jpg
-```
 
 ## Dataset
 
